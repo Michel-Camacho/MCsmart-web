@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173d35">
+  <meta name="description" content="Arneses y correas cómodos y resistentes para perros.">
+  <title>Paw & Walk | Accesorios para perros</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#" aria-label="Paw & Walk, inicio">
+        <img class="brand-logo" src="Imagenes/Logo.png" alt="MC Smart">
+      </a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#productos">Productos</a>
+        <a href="#beneficios">About us</a>
+      </nav>
+      <button class="cart-button" type="button" id="cartButton" aria-label="Abrir carrito">
+        <span aria-hidden="true">Carrito</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" id="heroEyebrow">Tecnología para el camino</p>
+        <h1 id="heroTitle">Carga rápida en cada viaje.</h1>
+        <p class="hero-text" id="heroText">Cargador para auto universal 12V–24V con carga PD de 30W.</p>
+        <a class="primary-button" href="#productos">Ver colección <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-collection">
+        <span class="hero-tag">Colección 2026</span>
+        <div class="hero-carousel" id="heroCarousel" data-carousel-index="0" aria-label="Productos destacados">
+          <div class="hero-carousel-track">
+            <article class="hero-feature">
+              <img src="Imagenes/cargador.png" alt="Cargador USB instalado en un vehículo">
+              <div class="hero-feature-copy">
+                <h2>Cargador USB para Auto</h2>
+                <p>Cargador universal 12V–24V con carga PD de 30W.</p>
+              </div>
+            </article>
+            <article class="hero-feature">
+              <img src="Imagenes/bridas1.jpg" alt="Bridas organizadoras sujetando cables sobre una mesa">
+              <div class="hero-feature-copy">
+                <h2>Bridas Organizadoras</h2>
+                <p>Bandas adhesivas multicolor para sujetar y ordenar cables.</p>
+              </div>
+            </article>
+            <article class="hero-feature">
+              <img src="Imagenes/Collage de Dos Imágenes.png" alt="Arnés y correa marrones para perro">
+              <div class="hero-feature-copy">
+                <h2>Arnés + Correa Marrón</h2>
+                <p>Set de pechera y correa a juego para sus paseos.</p>
+              </div>
+            </article>
+          </div>
+          <button class="hero-carousel-button hero-carousel-previous" type="button" data-feature-direction="-1" aria-label="Producto destacado anterior">‹</button>
+          <button class="hero-carousel-button hero-carousel-next" type="button" data-feature-direction="1" aria-label="Producto destacado siguiente">›</button>
+          <span class="hero-carousel-status" id="heroCarouselStatus" aria-live="polite">1 / 3</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="products-section" id="productos" aria-labelledby="products-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Nuestra selección</p>
+          <h2 id="products-title">Equipá su próxima aventura</h2>
+        </div>
+        <p class="section-copy">Arneses, accesorios y productos seleccionados para todos los días.</p>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="about-section" id="beneficios" aria-labelledby="about-title">
+      <div class="about-copy">
+        <h2 id="about-title">About us</h2>
+        <p>Nacimos con la ilusión de construir una marca confiable y enfocada en la satisfacción de nuestros clientes, con muchas ganas de crecer y ofrecer cada día mejores productos y servicios. Cada compra que realizas no solo apoya a un pequeño emprendimiento, sino que también nos ayuda a seguir mejorando, ampliar nuestro catálogo y brindar una mejor experiencia para nuestros clientes. ¡Gracias por formar parte de este comienzo!</p>
+      </div>
+    </section>
+  </main>
+
+  <aside class="cart-panel" id="cartPanel" aria-hidden="true" aria-label="Carrito de compras">
+    <div class="cart-header">
+      <h2>Tu carrito</h2>
+      <button type="button" id="closeCart" aria-label="Cerrar carrito">×</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-total"><span>Total</span><strong id="cartTotal">$0</strong></div>
+      <a class="checkout-button" id="checkoutButton" href="#" target="_blank" rel="noopener">Comprar por WhatsApp</a>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <footer>
+    <a class="brand footer-brand" href="#" aria-label="MC Smart, inicio">
+      <img class="brand-logo" src="Imagenes/Logo.png" alt="MC Smart">
+    </a>
+    <p>Consulta disponibilidad para entregas en el día o al día siguiente (Solo en CABA)</p>
+    <a class="whatsapp-link" href="https://wa.me/541140346789">
+      <svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <path class="whatsapp-icon-background" d="M16 2.5A13.2 13.2 0 0 0 4.7 22.5L3 29l6.7-1.7A13.2 13.2 0 1 0 16 2.5Z"/>
+        <path class="whatsapp-icon-phone" d="M11.4 8.7c-.5 0-1 .3-1.3.7-.5.6-.8 1.6-.4 2.9.4 1.8 1.7 4 3.9 6.2s4.4 3.5 6.2 3.9c1.3.3 2.3 0 2.9-.4.4-.3.7-.8.7-1.3v-1.1c0-.4-.2-.8-.6-.9l-2.7-1.2c-.4-.2-.8-.1-1.1.2l-.8.8c-1.4-.6-2.7-2-3.4-3.4l.8-.8c.3-.3.4-.7.2-1.1l-1.2-2.7c-.2-.4-.5-.6-.9-.6h-1.3Z"/>
+      </svg>
+      WhatsApp
+    </a>
+  </footer>
+  <a class="back-to-top" href="#top" aria-label="Volver arriba">↑</a>
+
+  <script src="app.js"></script>
+</body>
+</html>

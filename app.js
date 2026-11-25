@@ -6,7 +6,7 @@ const products = [
     id: 4,
     name: "Cargador USB para Auto",
     details: "Universal 12V–24V · PD 30W",
-    price: 30000,
+    price: 25000,
     image: "Imagenes/cargador.png",
     gallery: [
       { src: "Imagenes/cargador.png", alt: "Cargador USB instalado en un vehículo" },

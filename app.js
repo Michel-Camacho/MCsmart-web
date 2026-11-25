@@ -253,3 +253,10 @@ document.addEventListener("keydown", (event) => {
 renderProducts();
 renderCart();
 updateHeroCopy(Number(heroCarousel.dataset.carouselIndex));
+
+const pageEndMarker = document.getElementById("pageEndMarker");
+const backToTop = document.querySelector(".back-to-top");
+const pageEndObserver = new IntersectionObserver(([entry]) => {
+  backToTop.hidden = !entry.isIntersecting;
+});
+pageEndObserver.observe(pageEndMarker);

@@ -1,7 +1,7 @@
 const products = [
-  { id: 1, name: "Arnés + Correa Marrón", color: "Marrón", price: 60000, image: "Imagenes/Collage de Dos Imágenes.png", illustration: "Imagenes/Pechera-marron.jpg", illustrationAlt: "Perro paseando con pechera y correa marrones", badge: "Más vendido" },
-  { id: 2, name: "Arnés + Correa Azul", color: "Azul", price: 60000, image: "Imagenes/Collage de Dos Imágenes.azul.png", illustration: "Imagenes/pechera-azul.png", illustrationAlt: "Perro paseando con pechera y correa azules", badge: "Nuevo" },
-  { id: 3, name: "Arnés + Correa Negro", color: "Negro", price: 60000, image: "Imagenes/cambio de color-negro.png", illustration: "Imagenes/persona_paseando_a_su_perro.jpg", illustrationAlt: "Persona paseando a su perro con un arnés negro", badge: "Premium" },
+  { id: 1, name: "Arnés + Correa Marrón", color: "Marrón", price: 55000, image: "Imagenes/Collage de Dos Imágenes.png", illustration: "Imagenes/Pechera-marron.jpg", illustrationAlt: "Perro paseando con pechera y correa marrones", badge: "Más vendido" },
+  { id: 2, name: "Arnés + Correa Azul", color: "Azul", price: 55000, image: "Imagenes/Collage de Dos Imágenes.azul.png", illustration: "Imagenes/pechera-azul.png", illustrationAlt: "Perro paseando con pechera y correa azules", badge: "Nuevo" },
+  { id: 3, name: "Arnés + Correa Negro", color: "Negro", price: 55000, image: "Imagenes/cambio de color-negro.png", illustration: "Imagenes/persona_paseando_a_su_perro.jpg", illustrationAlt: "Persona paseando a su perro con un arnés negro", badge: "Premium" },
   {
     id: 4,
     name: "Cargador USB para Auto",

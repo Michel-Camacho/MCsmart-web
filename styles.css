@@ -118,7 +118,9 @@ footer > a:last-child { font-size: 13px; font-weight: 800; }
 .whatsapp-icon { width: 28px; height: 28px; flex: none; }
 .whatsapp-icon-background { fill: #25d366; }
 .whatsapp-icon-phone { fill: var(--white); }
+.page-end-marker { height: 1px; }
 .back-to-top { position: fixed; z-index: 15; right: 24px; bottom: 24px; display: grid; width: 48px; height: 48px; place-items: center; border-radius: 50%; background: var(--navy); box-shadow: 0 4px 14px rgb(20,39,70,.25); color: var(--white); font-size: 26px; font-weight: 800; line-height: 1; text-decoration: none; transition: background-color .2s ease, transform .2s ease; }
+.back-to-top[hidden] { display: none; }
 .back-to-top:hover { transform: translateY(-3px); background: var(--navy-mid); }
 
 @media (max-width: 850px) {

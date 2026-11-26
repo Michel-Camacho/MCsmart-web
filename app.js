@@ -17,8 +17,8 @@ const products = [
   },
   {
     id: 5,
-    name: "Bridas Organizadoras Individuales",
-    details: "Adhesivas y reutilizables",
+    name: "Bridas Organizadoras (Caja x 24 unidades)",
+    details: "Adhesivas y reutilizables · Se venden únicamente por caja",
     price: 15000,
     variants: ["Blanco", "Gris", "Azul", "Rojo", "Amarillo", "Negro", "Púrpura", "Verde", "Mix"],
     image: "Imagenes/bridas1.jpg",
@@ -57,7 +57,7 @@ const heroCopy = [
   {
     eyebrow: "Orden para tus espacios",
     title: "Cables organizados, espacios despejados.",
-    description: "Bridas adhesivas multicolor para sujetar y ordenar tus cables."
+    description: "Bridas adhesivas multicolor para ordenar tus cables. Caja de 24 unidades; no se venden individualmente."
   },
   {
     eyebrow: "Diseñado para aventuras reales",
